@@ -373,7 +373,7 @@ function setVideo(element) {
   }
   gtag("js", new Date());
 
-  gtag("config", "G-THTQ9GZQ0J");
+  gtag("config", "GTM-WCPM84Q4");
 
   highlightCards();
 
