@@ -92,9 +92,9 @@ function setAll(imdb, title, season, episode, type) {
     a.setAttribute("class", "links");
     a.setAttribute("IMDB", imdb);
     a.setAttribute("href", " https://embed.smashystream.com/playere.php?imdb=" + imdb);
-    a.setAttribute("href", " https://multiembed.mov/directstream.php?video_id="+ imdb);
+/* a.setAttribute("href", " https://multiembed.mov/directstream.php?video_id="+ imdb);
     a.setAttribute("href", " https://api.gdriveplayer.us/v1/imdb/" + imdb);
-    a.setAttribute("href", " https://www.2embed.cc/embed/" + imdb);
+    a.setAttribute("href", " https://www.2embed.cc/embed/" + imdb); */
     a.setAttribute("target", "_blank");
     a.click();
   } else if (imdb && title && episode && !type) {
