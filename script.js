@@ -21,10 +21,11 @@ const scrollToResults = () => {
 const searchInput = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
 const resultsContainer = document.getElementById("results");
-corsProxy = "https://cors-anywhere.pulkitpareekofficial.workers.dev/?url=";
+//corsProxy = "https://cors-anywhere.pulkitpareekofficial.workers.dev/?url=";
 //const corsProxy = "https://just-cros.pages.dev/?url=";
 //const corsProxy = "https://corsproxy.io/?";
 //const corsproxy = "https://mirror.ghproxy.com/";
+const corsproxy = "https://ghproxy.com/";
 
 // functions that manipulates the queries of url to get a low resolution image to increase page speed
 function optimisedImageUrl(url) {
